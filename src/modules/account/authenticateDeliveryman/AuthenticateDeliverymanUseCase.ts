@@ -28,7 +28,7 @@ export class AuthenticateDeliverymanUseCase {
     }
     //Gerar o token
 
-    const token =  sign({username}, "2aa54a893c2e3c940e3ea251752572e0dfb66d9d", {
+    const token =  sign({username}, "98d7fc1c47596c741f869d874ee37980", {
       subject: deliveryman.id,
       expiresIn: "1d"
     })
